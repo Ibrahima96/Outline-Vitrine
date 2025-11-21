@@ -1,0 +1,18 @@
+@import "tailwindcss";
+ @plugin "daisyui" {
+   themes: light 
+ }
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+
+h1,h2,h4,h3,span{
+  @apply font-display
+}
+
+html{
+  scroll-behavior: smooth;
+}
