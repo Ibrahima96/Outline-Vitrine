@@ -3,6 +3,7 @@ import Navbar from "./../components/Navbar";
 import Card from "./../components/Card";
 import Collection from "../components/Collection ";
 import Artisanat from "../components/Artisanat";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       </div>
       <Collection />
       <Artisanat/>
+      <Footer/>
     </>
   );
 };
