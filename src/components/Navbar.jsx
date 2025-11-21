@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, ShoppingBag } from "lucide-react";
-
+import geminiBG from '../assets/gemini.png'
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -68,7 +68,7 @@ export default function Navbar() {
       {/* HERO */}
       <section className="relative h-[90vh] flex items-center justify-center">
         <img
-          src="/src/assets/gemini.png"
+          src={geminiBG}
           className="absolute inset-0 w-full h-full object-cover"
         />
 
