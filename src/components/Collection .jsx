@@ -12,7 +12,7 @@ const Collection = () => {
             <img
               className="rounded-md w-full h-full object-cover "
               src="/src/assets/featured_lifestyle_hat_editorial.png"
-              alt="featured_lifestyle_hat_editorial"
+              alt="feditorial"
             />
           </div>
           <div className="max-w-4xl">
@@ -28,7 +28,7 @@ const Collection = () => {
             <img
               className="rounded-md w-full object-cover h-[659px]"
               src="/src/assets/featured_hat_detail_lifestyle.png"
-              alt="featured_hat_detail_lifestyle.png"
+              alt="lifestyle"
             />
           </div>
         </div>
