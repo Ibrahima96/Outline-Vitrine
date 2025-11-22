@@ -1,4 +1,6 @@
-
+import inspection from "../assets/quality_inspection_detail_shot.png"
+import making from "../assets/hat-making_process_hands_detail.png"
+import materials from "../assets/hat_materials_detail_shot.png"
 
 const Artisanat = () => {
   return (
@@ -13,21 +15,21 @@ const Artisanat = () => {
                 <div>
                     <img 
                     className="rounded-md object-center w-full mb-6"
-                    src="/src/assets/hat_materials_detail_shot.png" alt="hat_materials" />
+                    src={materials} alt="hat_materials" />
                     <h3 className="font-semibold text-2xl md:text-2xl text-center">Matériaux de qualité supérieure</h3>
                     <p className="p-3 text-center text-gray-600">Nous nous approvisionnons en feutres de laine, pailles et cuirs de la meilleure qualité auprès de fournisseurs éthiques qui partagent nos valeurs de durabilité et de qualité.</p>
                 </div>
                 <div>
                     <img 
                     className="rounded-md object-center w-full mb-6"
-                    src="/src/assets/hat-making_process_hands_detail.png" alt="process_hands" />
+                    src={making} alt="process_hands" />
                     <h3 className="font-semibold text-2xl md:text-2xl text-center">Techniques traditionnelles</h3>
                     <p className="p-3 text-center text-gray-600">Nos artisans utilisent des méthodes ancestrales transmises de génération en génération, garantissant que chaque chapeau est façonné avec précision et soin.</p>
                 </div>
                 <div>
                     <img 
                     className="rounded-md object-center w-full mb-6"
-                    src="/src/assets/quality_inspection_detail_shot.png" alt="quality_inspection_detail" />
+                    src={inspection} alt="quality_inspection_detail" />
                     <h3 className="font-semibold text-2xl md:text-2xl text-center">Qualité rigoureuse</h3>
                     <p className="p-3 text-center text-gray-600">Chaque chapeau subit une inspection minutieuse et une finition à la main avant de vous parvenir, garantissant une qualité exceptionnelle.</p>
                 </div>

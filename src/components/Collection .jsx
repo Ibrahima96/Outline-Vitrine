@@ -1,3 +1,6 @@
+import editorial from '../assets/featured_lifestyle_hat_editorial.png'
+import lifestyle   from "../assets/featured_hat_detail_lifestyle.png"
+import raftsmanship from "../assets/hat_workshop_craftsmanship_scene.png"
 const Collection = () => {
   return (
     <>
@@ -11,7 +14,7 @@ const Collection = () => {
           <div className="max-w-4xl hover:scale-105 transition-transform duration-500 ">
             <img
               className="rounded-md w-full h-full object-cover "
-              src="/src/assets/featured_lifestyle_hat_editorial.png"
+              src={editorial}
               alt="feditorial"
             />
           </div>
@@ -27,7 +30,7 @@ const Collection = () => {
             </p>
             <img
               className="rounded-md w-full object-cover h-[659px]"
-              src="/src/assets/featured_hat_detail_lifestyle.png"
+              src={lifestyle}
               alt="lifestyle"
             />
           </div>
@@ -58,7 +61,7 @@ const Collection = () => {
           <div>
             <img
               className="rounded-md"
-              src="/src/assets/hat_workshop_craftsmanship_scene.png"
+              src={raftsmanship}
               alt="craftsmanship"
             />
           </div>
